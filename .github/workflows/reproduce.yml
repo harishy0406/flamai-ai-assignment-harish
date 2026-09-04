@@ -1,0 +1,31 @@
+name: reproduce
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Reproduce
+        run: |
+          python partA/corpus/build_corpus.py --source smoke --sample-size 10
+          python partA/audit/experiments/exp_missing_inputs.py --mode inputs
+          python partA/audit/experiments/exp_missing_inputs.py --mode audit
+          python partA/audit/experiments/exp_whitespace_word_count.py
+          python partA/audit/experiments/exp_lowercasing.py
+          python partA/audit/experiments/exp_nfc_red_herring.py
+          python partA/analysis/corrected_fertility.py --mode reference
+          python partB/b3_goodput.py --batch-size 24 --prompt-len 3584
+          python partB/plot_anomaly.py
+          python -m ruff check project_inputs.py partA partB partC
+          python -m compileall -q project_inputs.py partA partB partC
