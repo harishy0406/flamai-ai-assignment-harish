@@ -1,0 +1,42 @@
+{
+  "status": "built",
+  "source": "facebook/flores",
+  "split": "dev",
+  "selected_ids": "partA\\corpus\\processed\\ids.txt",
+  "languages": {
+    "eng": {
+      "language": "English",
+      "records": 250,
+      "sha256": "d2ea8351dd62bd437b30993c6b3bf5f920ef4ad596a5be12a9511e3c5a871e67",
+      "path": "partA\\corpus\\processed\\eng.txt",
+      "source": "facebook/flores",
+      "config": "eng_Latn"
+    },
+    "hin": {
+      "language": "Hindi",
+      "records": 250,
+      "sha256": "59fd6bc9dd19567d0a7d7f8f1635ec1fd9a24f49f254699e45a803aaa1efcd59",
+      "path": "partA\\corpus\\processed\\hin.txt",
+      "source": "facebook/flores",
+      "config": "hin_Deva"
+    },
+    "kan": {
+      "language": "Kannada",
+      "records": 250,
+      "sha256": "2fc1cb6c0624958fcff4f5e06f3466c20c18fe8555378ecc5a737e5a63c83d14",
+      "path": "partA\\corpus\\processed\\kan.txt",
+      "source": "facebook/flores",
+      "config": "kan_Knda"
+    },
+    "tam": {
+      "language": "Tamil",
+      "records": 250,
+      "sha256": "90521c64f7bdac0d5e3e935cb60786dcf44620261602a86fc6acd405c4881f1c",
+      "path": "partA\\corpus\\processed\\tam.txt",
+      "source": "facebook/flores",
+      "config": "tam_Taml"
+    }
+  },
+  "seed": 42,
+  "reason": "aligned FLORES dev split selected by common sentence IDs"
+}
