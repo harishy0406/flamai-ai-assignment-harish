@@ -1,0 +1,138 @@
+{
+  "corpus": {
+    "paths": {
+      "eng": "partA\\corpus\\processed\\eng.txt",
+      "hin": "partA\\corpus\\processed\\hin.txt",
+      "kan": "partA\\corpus\\processed\\kan.txt",
+      "tam": "partA\\corpus\\processed\\tam.txt"
+    },
+    "normalization": "NFC",
+    "mode": "real"
+  },
+  "tokenizers": [
+    "gpt2",
+    "hf:xlm-roberta-base"
+  ],
+  "rows": [
+    {
+      "lang": "eng",
+      "tokenizer": "gpt2",
+      "lines": 250,
+      "tokens": 6551,
+      "tokens_per_sentence": 26.204,
+      "words": 5269,
+      "bytes": 31479,
+      "chars": 31444,
+      "graphemes": 31444,
+      "tokens_per_word": 1.2433099259821598,
+      "tokens_per_byte": 0.2081069919628959,
+      "tokens_per_char": 0.20833863376160794,
+      "tokens_per_grapheme": 0.20833863376160794
+    },
+    {
+      "lang": "hin",
+      "tokenizer": "gpt2",
+      "lines": 250,
+      "tokens": 47368,
+      "tokens_per_sentence": 189.472,
+      "words": 6171,
+      "bytes": 79989,
+      "chars": 31268,
+      "graphemes": 20692,
+      "tokens_per_word": 7.675903419218927,
+      "tokens_per_byte": 0.5921814249459301,
+      "tokens_per_char": 1.5149034156325956,
+      "tokens_per_grapheme": 2.289193891358979
+    },
+    {
+      "lang": "kan",
+      "tokenizer": "gpt2",
+      "lines": 250,
+      "tokens": 86555,
+      "tokens_per_sentence": 346.22,
+      "words": 3912,
+      "bytes": 88653,
+      "chars": 32850,
+      "graphemes": 21336,
+      "tokens_per_word": 22.125511247443765,
+      "tokens_per_byte": 0.9763346982053625,
+      "tokens_per_char": 2.634855403348554,
+      "tokens_per_grapheme": 4.0567585301837275
+    },
+    {
+      "lang": "tam",
+      "tokenizer": "gpt2",
+      "lines": 250,
+      "tokens": 97850,
+      "tokens_per_sentence": 391.4,
+      "words": 4021,
+      "bytes": 98527,
+      "chars": 36342,
+      "graphemes": 23468,
+      "tokens_per_word": 24.33474260134295,
+      "tokens_per_byte": 0.993128787032996,
+      "tokens_per_char": 2.6924770238291784,
+      "tokens_per_grapheme": 4.169507414351457
+    },
+    {
+      "lang": "eng",
+      "tokenizer": "hf:xlm-roberta-base",
+      "lines": 250,
+      "tokens": 7385,
+      "tokens_per_sentence": 29.54,
+      "words": 5269,
+      "bytes": 31479,
+      "chars": 31444,
+      "graphemes": 31444,
+      "tokens_per_word": 1.4015942304042512,
+      "tokens_per_byte": 0.23460084500778297,
+      "tokens_per_char": 0.2348619768477293,
+      "tokens_per_grapheme": 0.2348619768477293
+    },
+    {
+      "lang": "hin",
+      "tokenizer": "hf:xlm-roberta-base",
+      "lines": 250,
+      "tokens": 9262,
+      "tokens_per_sentence": 37.048,
+      "words": 6171,
+      "bytes": 79989,
+      "chars": 31268,
+      "graphemes": 20692,
+      "tokens_per_word": 1.500891265597148,
+      "tokens_per_byte": 0.1157909212516721,
+      "tokens_per_char": 0.29621338109249074,
+      "tokens_per_grapheme": 0.44761260390489077
+    },
+    {
+      "lang": "kan",
+      "tokenizer": "hf:xlm-roberta-base",
+      "lines": 250,
+      "tokens": 10005,
+      "tokens_per_sentence": 40.02,
+      "words": 3912,
+      "bytes": 88653,
+      "chars": 32850,
+      "graphemes": 21336,
+      "tokens_per_word": 2.557515337423313,
+      "tokens_per_byte": 0.11285574092247301,
+      "tokens_per_char": 0.3045662100456621,
+      "tokens_per_grapheme": 0.46892575928009
+    },
+    {
+      "lang": "tam",
+      "tokenizer": "hf:xlm-roberta-base",
+      "lines": 250,
+      "tokens": 9836,
+      "tokens_per_sentence": 39.344,
+      "words": 4021,
+      "bytes": 98527,
+      "chars": 36342,
+      "graphemes": 23468,
+      "tokens_per_word": 2.4461576722208407,
+      "tokens_per_byte": 0.09983050331381246,
+      "tokens_per_char": 0.2706510373672335,
+      "tokens_per_grapheme": 0.41912391341401056
+    }
+  ]
+}

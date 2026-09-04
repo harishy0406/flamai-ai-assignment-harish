@@ -1,0 +1,138 @@
+{
+  "corpus": {
+    "paths": {
+      "eng": "H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\corpus\\reference_flores\\eng.txt",
+      "hin": "H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\corpus\\reference_flores\\hin.txt",
+      "kan": "H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\corpus\\reference_flores\\kan.txt",
+      "tam": "H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\corpus\\reference_flores\\tam.txt"
+    },
+    "normalization": "NFC",
+    "mode": "reference"
+  },
+  "tokenizers": [
+    "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\english_only.model",
+    "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\multilingual.model"
+  ],
+  "rows": [
+    {
+      "lang": "eng",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\english_only.model",
+      "lines": 250,
+      "tokens": 25226,
+      "tokens_per_sentence": 100.904,
+      "words": 5269,
+      "bytes": 31479,
+      "chars": 31444,
+      "graphemes": 31444,
+      "tokens_per_word": 4.787625735433669,
+      "tokens_per_byte": 0.8013596365831189,
+      "tokens_per_char": 0.802251621931052,
+      "tokens_per_grapheme": 0.802251621931052
+    },
+    {
+      "lang": "hin",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\english_only.model",
+      "lines": 250,
+      "tokens": 12613,
+      "tokens_per_sentence": 50.452,
+      "words": 6171,
+      "bytes": 79989,
+      "chars": 31268,
+      "graphemes": 20692,
+      "tokens_per_word": 2.0439150866958355,
+      "tokens_per_byte": 0.15768418157496655,
+      "tokens_per_char": 0.4033836510170142,
+      "tokens_per_grapheme": 0.6095592499516721
+    },
+    {
+      "lang": "kan",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\english_only.model",
+      "lines": 250,
+      "tokens": 8453,
+      "tokens_per_sentence": 33.812,
+      "words": 3912,
+      "bytes": 88653,
+      "chars": 32850,
+      "graphemes": 21336,
+      "tokens_per_word": 2.1607873210633946,
+      "tokens_per_byte": 0.09534928316018634,
+      "tokens_per_char": 0.25732115677321155,
+      "tokens_per_grapheme": 0.3961848518935133
+    },
+    {
+      "lang": "tam",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\english_only.model",
+      "lines": 250,
+      "tokens": 8524,
+      "tokens_per_sentence": 34.096,
+      "words": 4021,
+      "bytes": 98527,
+      "chars": 36342,
+      "graphemes": 23468,
+      "tokens_per_word": 2.1198706789355883,
+      "tokens_per_byte": 0.08651435647081511,
+      "tokens_per_char": 0.23454955698640692,
+      "tokens_per_grapheme": 0.3632179989773308
+    },
+    {
+      "lang": "eng",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\multilingual.model",
+      "lines": 250,
+      "tokens": 29249,
+      "tokens_per_sentence": 116.996,
+      "words": 5269,
+      "bytes": 31479,
+      "chars": 31444,
+      "graphemes": 31444,
+      "tokens_per_word": 5.551148225469729,
+      "tokens_per_byte": 0.9291591219543187,
+      "tokens_per_char": 0.9301933596234576,
+      "tokens_per_grapheme": 0.9301933596234576
+    },
+    {
+      "lang": "hin",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\multilingual.model",
+      "lines": 250,
+      "tokens": 29657,
+      "tokens_per_sentence": 118.628,
+      "words": 6171,
+      "bytes": 79989,
+      "chars": 31268,
+      "graphemes": 20692,
+      "tokens_per_word": 4.805866148112138,
+      "tokens_per_byte": 0.37076347997849707,
+      "tokens_per_char": 0.9484776768581297,
+      "tokens_per_grapheme": 1.4332592306205296
+    },
+    {
+      "lang": "kan",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\multilingual.model",
+      "lines": 250,
+      "tokens": 31472,
+      "tokens_per_sentence": 125.888,
+      "words": 3912,
+      "bytes": 88653,
+      "chars": 32850,
+      "graphemes": 21336,
+      "tokens_per_word": 8.044989775051125,
+      "tokens_per_byte": 0.35500208678781314,
+      "tokens_per_char": 0.9580517503805175,
+      "tokens_per_grapheme": 1.4750656167979002
+    },
+    {
+      "lang": "tam",
+      "tokenizer": "spm:H:\\PROJECTS\\ADVANCE\\flamai-ai-assignment-harish\\partA\\analysis\\models\\multilingual.model",
+      "lines": 250,
+      "tokens": 32869,
+      "tokens_per_sentence": 131.476,
+      "words": 4021,
+      "bytes": 98527,
+      "chars": 36342,
+      "graphemes": 23468,
+      "tokens_per_word": 8.174334742601342,
+      "tokens_per_byte": 0.3336039867244512,
+      "tokens_per_char": 0.9044356392053272,
+      "tokens_per_grapheme": 1.4005880347707516
+    }
+  ]
+}
