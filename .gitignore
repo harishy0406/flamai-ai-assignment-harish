@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+*.log
+.DS_Store
+partA/corpus/raw/
+
+# Local model and dataset caches
+.cache/
+hf_cache/
